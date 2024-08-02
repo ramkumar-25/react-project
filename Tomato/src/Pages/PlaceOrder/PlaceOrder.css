@@ -40,3 +40,14 @@
 .place-order .cart-total button{
     margin-top:30px;
 }
+
+@media (max-width:650px){
+    .place-order{
+        display:flex;
+        flex-direction: column;
+    }
+    .place-order-left{
+        margin-top: -65px;
+    }
+}
+
